@@ -37,7 +37,7 @@ export const HEROES: Hero[] = [
     { id: 17, name: "Storm Spirit", slug: "storm_spirit", roles: ['Mid', 'All'] },
     { id: 18, name: "Sven", slug: "sven", roles: ['Carry', 'All'] },
     { id: 19, name: "Tiny", slug: "tiny", roles: ['Carry', 'Mid', 'All'] },
-    { id: 20, name: "Vengeful Spirit", slug: "vengeful_spirit", roles: ['Hard Support', 'All'] },
+    { id: 20, name: "Vengeful Spirit", slug: "vengefulspirit", roles: ['Hard Support', 'All'] },
     { id: 21, name: "Windranger", slug: "windrunner", roles: ['Carry', 'Soft Support', 'All'] },
     { id: 22, name: "Zeus", slug: "zuus", roles: ['Mid', 'Soft Support', 'All'] },
     { id: 23, name: "Kunkka", slug: "kunkka", roles: ['Mid', 'Offlane', 'All'] },
