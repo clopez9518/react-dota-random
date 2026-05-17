@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { heroFull, type Hero } from "../data/heroes";
 
 interface Props {
-    hero: Hero | null;
+    hero: Hero;
 }
 
 export const ResultCard = ({ hero }: Props) => {
