@@ -61,18 +61,11 @@ export const HomePage = () => {
                         </span>
                     </h1>
                     <p className="mt-3 text-sm text-muted-foreground">
-                        Select your role and pick your champion.
+                        Choose your role and let fate decide your next hero.
                     </p>
                 </header>
 
                 <section className="mb-8">
-                    <div className="mb-3 flex items-center justify-center gap-2 text-xs text-muted-foreground">
-                        Select role · click{" "}
-                        <span className="inline-grid h-5 w-5 place-items-center rounded-full border border-border">
-                            <Sparkles className="h-3 w-3" />
-                        </span>{" "}
-                        to manage heroes
-                    </div>
                     <div className="flex flex-wrap justify-center gap-2">
                         {ALL_ROLES.map((r) => {
                             // "All" chip uses the "All" role; specific roles use their role key
